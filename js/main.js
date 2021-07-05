@@ -18,3 +18,10 @@ inputs.forEach(input => {
 	input.addEventListener("focus", addcl);
 	input.addEventListener("blur", remcl);
 });
+
+function dashboard()
+{
+	window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '__blank')
+	
+}
+
