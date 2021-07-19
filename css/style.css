@@ -9,27 +9,53 @@ body{
     overflow: hidden;
 }
 
+
+
+:root
+{
+	--primary-color: #edf2fc;
+	--secondary-color: #212121;
+}
+
+#icon
+{
+	position: relative;
+	top : 210px;
+	left : 490px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+
 .wave{
 	position: fixed;
 	bottom: 0;
+	top: 4px;
 	left: 0;
 	height: 100%;
-	z-index: -1;
+	z-index: 1;
+	
 }
 
+
+
 .container{
+	position: fixed;
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
     padding: 0 2rem;
+    z-index: 2;
+
 }
 
 .img{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	
 }
 
 .login-content{
@@ -103,7 +129,7 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color: #ECD031;
+	background-color: #1D1B31;
 	transition: .4s;
 }
 
@@ -125,7 +151,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #ECD031;
+	color: #1D1B31;
 }
 
 .input-div > div > input{
@@ -157,7 +183,7 @@ a{
 }
 
 a:hover{
-	color: #ECD031;
+	color: #1D1B31;
 }
 
 .btn{
@@ -167,7 +193,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right,#ECD031,#ECD031, #ECD031);
+	background-image: linear-gradient(to right,#1D1B31,#1D1B31, #1D1B31);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
