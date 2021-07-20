@@ -23,7 +23,7 @@ inputs.forEach(input => {
 function dashboard()
 {
 	window.open("pages/dashboard.html");
-	//window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+	window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 	window.close();
 	
 }
